@@ -9,7 +9,7 @@ COPY . .
 
 RUN mkdir -p uploads
 
-EXPOSE 3009
+EXPOSE 3600
 
 CMD ["node", "server.js"]
 
